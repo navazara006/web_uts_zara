@@ -1,0 +1,453 @@
+/* =========================================
+   STYLE UMUM
+========================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff8ee;
+  margin: 0;
+  padding: 30px;
+  color: #333;
+}
+
+/* =========================================
+   NAVBAR
+========================================= */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 32px;
+  background-color: #ff7a1a;
+  border-radius: 10px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand h3 {
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0;
+}
+
+/* =========================================
+   TOMBOL UMUM
+========================================= */
+
+.btn {
+  display: inline-block;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* =========================================
+   HALAMAN INDEX
+========================================= */
+
+.page-index {
+  background-color: #fff8ee;
+}
+
+.page-index .container {
+  max-width: 1100px;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(255, 122, 26, 0.12);
+}
+
+.page-index h3 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Hero Section */
+
+.hero-section {
+  background: linear-gradient(135deg, #ffb347, #ff7a1a);
+  min-height: 100vh;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.hero-section p {
+  font-size: 18px;
+}
+
+/* =========================================
+   SEARCHING DAN TAMBAH MENU
+========================================= */
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.search-box {
+  display: flex;
+  gap: 8px;
+}
+
+.search-box input {
+  width: 280px;
+  padding: 9px 12px;
+  border: 1px solid #ffd9b8;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
+
+.search-box input:focus {
+  border-color: #ff7a1a;
+}
+
+.btn-cari {
+  background-color: #ff7a1a;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-cari:hover {
+  background-color: #e8650a;
+  color: white;
+}
+
+.page-index .btn-tambah {
+  background-color: #ff7a1a;
+  font-weight: bold;
+}
+
+.page-index .btn-tambah:hover {
+  background-color: #e8650a;
+  color: white;
+}
+
+/* =========================================
+   CARD MENU
+========================================= */
+
+.card-film {
+  background-color: #fffdf9;
+  color: #444444;
+  border: 1px solid #ffd9b8;
+}
+
+.card-film .card-title {
+  font-weight: bold;
+  color: #333333;
+}
+
+.card-genre {
+  color: #e8650a;
+}
+
+.card-tahun {
+  color: #2fb344;
+}
+
+/* =========================================
+   TOMBOL EDIT DAN HAPUS
+========================================= */
+
+.btn-edit {
+  background-color: #ff7a1a;
+  font-weight: bold;
+}
+
+.btn-edit:hover {
+  background-color: #e8650a;
+  color: white;
+}
+
+.btn-hapus {
+  background-color: #e74c3c;
+  font-weight: bold;
+}
+
+.btn-hapus:hover {
+  background-color: #c0392b;
+  color: white;
+}
+
+/* =========================================
+   HALAMAN FORM
+========================================= */
+
+.page-form .container,
+.page-register .container {
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.form-background {
+  background: linear-gradient(135deg, #fff3e0, #ffe0b8);
+  min-height: 100vh;
+}
+
+.form-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(255, 122, 26, 0.15);
+}
+
+.page-form h1,
+.page-form h2,
+.page-form h3,
+.page-register h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #ff7a1a;
+}
+
+/* Tampilan Form */
+
+.form-card-tambah,
+.form-card-edit,
+.form-card-register {
+  background: #ffffff;
+  color: #333333;
+  border: 1px solid #ffd9b8;
+}
+
+.form-card-tambah,
+.form-card-edit,
+.form-card-register {
+  padding: 30px;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 7px;
+  font-weight: bold;
+  color: #444444;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ffd9b8;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+}
+
+.form-group input:focus {
+  border-color: #ff7a1a;
+}
+
+/* =========================================
+   BUTTON GROUP
+========================================= */
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.btn-submit {
+  background-color: #2fb344;
+  font-weight: bold;
+}
+
+.btn-submit:hover {
+  background-color: #279a3a;
+  color: white;
+}
+
+.btn-kembali {
+  background-color: #ffffff;
+  font-weight: bold;
+  color: #ff7a1a;
+  border: 1px solid #ff7a1a;
+}
+
+.btn-kembali:hover {
+  background-color: #fff3e6;
+  color: #e8650a;
+}
+
+.btn-kembali-form {
+  text-align: center;
+}
+
+/* Halaman Registrasi */
+.page-register {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.page-register .container {
+  width: 100%;
+  max-width: 520px;
+  margin: 0;
+}
+
+.page-register .form-card {
+  padding: 40px;
+}
+
+/* =========================================
+   LOGOUT
+========================================= */
+
+.btn-logout {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #ffffff;
+  color: #ff7a1a;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-logout:hover {
+  background-color: #fff3e6;
+  color: #e8650a;
+}
+
+/* =========================================
+   PAGINATION
+========================================= */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.pagination a,
+.pagination-disabled {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 42px;
+  height: 42px;
+  padding: 0 14px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 10px;
+  transition: all 0.2s ease;
+}
+
+.pagination a {
+  color: #555555;
+  background-color: #ffffff;
+  border: 1px solid #ffd9b8;
+  box-shadow: 0 2px 6px rgba(255, 122, 26, 0.08);
+}
+
+.pagination a:hover {
+  background-color: #ff7a1a;
+  color: white;
+  border-color: #ff7a1a;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(255, 122, 26, 0.25);
+}
+
+.pagination a.active {
+  background-color: #ff7a1a;
+  color: white;
+  border-color: #ff7a1a;
+  box-shadow: 0 5px 12px rgba(255, 122, 26, 0.3);
+}
+
+.pagination .prev,
+.pagination .next {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.pagination-disabled {
+  color: #aaaaaa;
+  background-color: #f5f0ea;
+  border: 1px solid #eadfd2;
+  cursor: not-allowed;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 768px) {
+  body {
+    padding: 15px;
+  }
+
+  .page-index .container,
+  .form-card,
+  .form-card-tambah,
+  .form-card-edit,
+  .form-card-register {
+    padding: 18px;
+  }
+
+  .navbar {
+    padding: 15px;
+  }
+
+  .top-bar {
+    gap: 10px;
+  }
+
+  .search-box {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .search-box input {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .page-index .btn-tambah {
+    text-align: center;
+  }
+
+  .page-index .container {
+    overflow-x: auto;
+  }
+
+  .button-group {
+    flex-direction: column;
+  }
+
+  .button-group .btn {
+    width: 100%;
+  }
+}
